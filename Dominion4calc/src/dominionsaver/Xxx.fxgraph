@@ -1,0 +1,16 @@
+package dominionsaver
+
+import javafx.scene.layout.AnchorPane
+import javafx.scene.shape.Arc
+import javafx.scene.control.Button
+
+component Xxx controlledby dominionsaver.Controller styledwith "@./NewFile.css"  {
+	AnchorPane {
+		//TODO Add Nodes
+		Button id MyButton  {
+			text: "Hello",
+			onAction : controllermethod x,
+			styleClass : ["test"]			
+		}
+	}
+}
